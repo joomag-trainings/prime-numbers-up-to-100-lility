@@ -29,7 +29,9 @@ function checkPrime() {
                 $primeTrue = false;
             }
         }
+        if ($primeTrue) {
             echo $i.' ';
+        }
     }
 }
 checkPrime();
