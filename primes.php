@@ -27,7 +27,6 @@ function checkPrime() {
         for ($j = 2; $j <= sqrt($i); $j++) {
             if ($i % $j === 0) {
                 $primeTrue = false;
-                break;
             }
         }
             echo $i.' ';
